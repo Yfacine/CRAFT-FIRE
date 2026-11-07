@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><AssemblyName>PassAiFire.AutoCAD2024</AssemblyName><RootNamespace>PassAiFire.AutoCAD2024</RootNamespace></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\PassAiFire.Core.csproj" />
+    <Reference Include="AcCoreMgd"><HintPath>$(FireCadRoot)\AcCoreMgd.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="AcMgd"><HintPath>$(FireCadRoot)\AcMgd.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="AcDbMgd"><HintPath>$(FireCadRoot)\AcDbMgd.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

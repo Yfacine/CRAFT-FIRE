@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassAiFire.Core", "src\Core\PassAiFire.Core.csproj", "{0D91A9CF-5BB8-49E4-9E93-2A25AA0ACF01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassAiFire.AutoCAD2024", "src\Hosts\AutoCAD2024\PassAiFire.AutoCAD2024.csproj", "{0D91A9CF-5BB8-49E4-9E93-2A25AA0ACF02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassAiFire.Tests", "tests\Core\PassAiFire.Tests.csproj", "{0D91A9CF-5BB8-49E4-9E93-2A25AA0ACF03}"
+EndProject
+Global
+ GlobalSection(SolutionConfigurationPlatforms) = preSolution
+  Release|Any CPU = Release|Any CPU
+ EndGlobalSection
+ GlobalSection(ProjectConfigurationPlatforms) = postSolution
+  {0D91A9CF-5BB8-49E4-9E93-2A25AA0ACF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+  {0D91A9CF-5BB8-49E4-9E93-2A25AA0ACF01}.Release|Any CPU.Build.0 = Release|Any CPU
+  {0D91A9CF-5BB8-49E4-9E93-2A25AA0ACF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+  {0D91A9CF-5BB8-49E4-9E93-2A25AA0ACF02}.Release|Any CPU.Build.0 = Release|Any CPU
+  {0D91A9CF-5BB8-49E4-9E93-2A25AA0ACF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+  {0D91A9CF-5BB8-49E4-9E93-2A25AA0ACF03}.Release|Any CPU.Build.0 = Release|Any CPU
+ EndGlobalSection
+EndGlobal

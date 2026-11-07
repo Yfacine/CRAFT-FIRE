@@ -1,0 +1,16 @@
+# 실행자료는 D:\PASS_AI\TEST에 둔다. 이 파일은 격리 검사를 대체하지 않는다.
+bin/
+obj/
+.vs/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.user
+*.suo
+*.dll
+*.exe
+artifacts/
+cache/

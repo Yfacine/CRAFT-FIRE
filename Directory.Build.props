@@ -1,0 +1,26 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>12.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <PathMap>$(FireArtifactsRoot)=/_/fire-build,$(MSBuildThisFileDirectory)=/_/fire-source</PathMap>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AutomaticallyUseReferenceAssemblyPackages>false</AutomaticallyUseReferenceAssemblyPackages>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <NuGetAudit>false</NuGetAudit>
+    <Version>$(FireVersion)</Version>
+    <AssemblyVersion>$(FireVersion).0</AssemblyVersion>
+    <FileVersion>$(FireVersion).0</FileVersion>
+    <BaseIntermediateOutputPath>$(FireArtifactsRoot)\obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
+    <OutputPath>$(FireArtifactsRoot)\bin\$(MSBuildProjectName)\$(Configuration)\</OutputPath>
+    <RestorePackagesPath>$(FireArtifactsRoot)\packages</RestorePackagesPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net48" Version="[1.0.3]" PrivateAssets="All" />
+  </ItemGroup>
+</Project>

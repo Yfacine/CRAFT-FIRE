@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><AssemblyName>PassAiFire.Core</AssemblyName><RootNamespace>PassAiFire.Core</RootNamespace></PropertyGroup>
+  <ItemGroup><EmbeddedResource Include="Catalog.tsv" /></ItemGroup>
+</Project>

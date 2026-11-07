@@ -1,0 +1,7 @@
+<Project>
+  <Target Name="RequireFireRunner" BeforeTargets="Restore;PrepareForBuild;CollectPackageReferences">
+    <Error Condition="'$(FireSupportedEntry)' != 'true'" Text="Use setup/build.ps1 or setup/run_tests.ps1." />
+    <Error Condition="!$([System.Text.RegularExpressions.Regex]::IsMatch('$(FireArtifactsRoot)', '^D:\\PASS_AI\\TEST\\automated\\pass-ai-fire-build-[0-9]{8}-[0-9]{6}-[a-f0-9]{8}$'))" Text="Dedicated FIRE D artifacts root required." />
+    <Error Condition="!$([System.Text.RegularExpressions.Regex]::IsMatch('$(FireVersion)', '^[0-9]+\.[0-9]+\.[0-9]+$'))" Text="Version must come from version.json." />
+  </Target>
+</Project>

@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><AssemblyName>PassAiFire.Tests</AssemblyName><RootNamespace>PassAiFire.Tests</RootNamespace></PropertyGroup>
+  <ItemGroup><ProjectReference Include="..\..\src\Core\PassAiFire.Core.csproj" /></ItemGroup>
+</Project>

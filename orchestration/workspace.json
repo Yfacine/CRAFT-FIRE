@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "workspace_id": "pass-ai-fire",
+  "workspace_root": "E:\\CRAFT-FIRE",
+  "development_environment_root": "E:\\PASS_AI",
+  "planning_root": "E:\\CRAFT-FIRE\\plans",
+  "execution_root": "D:\\PASS_AI\\TEST",
+  "test_source_root": "E:\\CRAFT-FIRE\\tests",
+  "workspace_runner": "E:\\CRAFT-FIRE\\setup\\run_tests.ps1",
+  "product_profiles_policy": "E:\\PASS_AI\\orchestration\\product-profiles.json",
+  "stage": "foundation-only",
+  "product_implementation_enabled": false,
+  "dependency_installation_approved": false,
+  "cad_execution_approved": false,
+  "product_profile_status": "REGISTERED",
+  "target_cad": "AutoCAD 2024",
+  "target_framework": "net48",
+  "reference_url": "https://www.dcs.co.kr/products/fire",
+  "protected_product_roots": [
+    "E:\\CRAFT-DreamPlus",
+    "E:\\PASS_AI\\exe",
+    "E:\\PASS_AI\\exe_fb"
+  ],
+  "tool_candidates": {
+    "dotnet": "E:\\PASS_AI\\.tools\\pass-ai-pro\\dotnet\\8.0.426\\dotnet.exe",
+    "autocad": "C:\\Program Files\\Autodesk\\AutoCAD 2024\\acad.exe"
+  }
+}

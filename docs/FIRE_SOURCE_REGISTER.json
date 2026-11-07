@@ -1,0 +1,847 @@
+{
+  "schema_version": "1.0.0",
+  "observed_date": "2026-10-23",
+  "scope": "공식 공개 관련 자료 전체를 조사 대상으로 하는 독립 복제 개발 준비",
+  "authority": "documentary evidence; not CAD runtime or binary analysis",
+  "sources": [
+    {
+      "source_id": "SRC-PRODUCT",
+      "title": "FIRE 공식 제품 소개",
+      "url": "https://www.dcs.co.kr/products/fire",
+      "kind": "official-web",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-23",
+      "method": "mcp__rea capture_browser_scenario / rea-playwright-browser-scenario; read-only rendered DOM",
+      "source_sha256": null,
+      "limitations": "",
+      "observation_history": [
+        {
+          "observed_date": "2026-10-22",
+          "method": "in-app browser DOM / normal public navigation",
+          "access_status": "BODY_OBSERVED"
+        }
+      ],
+      "rea_evidence_id": "ev_8f91418c508f4d0f7eab9c421361c5b47ebb255cd624db372e36d2dd049c27c9",
+      "rendered_dom_sha256": "72ede765f90feb352300680bf76f4011f24a066a524341d037b4a5f87804c37d",
+      "rea_evidence_path": "D:\\PASS_AI\\TEST\\automated\\fire-2025-manual-rea-research-20261023-01a1666b\\evidence-product-ready.json",
+      "rea_evidence_file_sha256": "02F79B197563AA29A33D406283635E9F4A05F8CBD1AFA5A3DD1E40941446F50D",
+      "source_hash_note": "source_sha256 remains null; normalized DOM and local evidence receipt SHA are not remote wire-byte SHA",
+      "runtime_verification": "NOT RUN"
+    },
+    {
+      "source_id": "SRC-M00",
+      "title": "머리말",
+      "url": "https://www.dcs.co.kr/fire2025manual/intro.html",
+      "kind": "official-manual",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-23",
+      "method": "mcp__rea capture_browser_scenario / rea-playwright-browser-scenario; read-only rendered DOM",
+      "source_sha256": null,
+      "limitations": "웹 문서의 공개 동작 설명; 실제 CAD 실행·버전별 동일성은 미검증",
+      "observation_history": [
+        {
+          "observed_date": "2026-10-22",
+          "method": "in-app browser DOM / normal public navigation",
+          "access_status": "BODY_OBSERVED"
+        }
+      ],
+      "rea_evidence_id": "ev_b6393cc39f21f89c3acaa21cb9485b99c2aba6e574dfb65b10afeb5c60c76b0e",
+      "rendered_dom_sha256": "0217b6d6ef1382bea79d236fcc8b1a12fcb6ef8b7a555e559548c38ee591cfbe",
+      "rea_evidence_path": "D:\\PASS_AI\\TEST\\automated\\fire-2025-manual-rea-research-20261023-01a1666b\\evidence-intro.json",
+      "rea_evidence_file_sha256": "F705CCD12CEAED6E3E111B19E992A62C76DBAB2CF33939681B570D89FB0B5EC5",
+      "source_hash_note": "source_sha256 remains null; normalized DOM and local evidence receipt SHA are not remote wire-byte SHA",
+      "runtime_verification": "NOT RUN"
+    },
+    {
+      "source_id": "SRC-M01",
+      "title": "사용자 서비스",
+      "url": "https://www.dcs.co.kr/fire2025manual/ch01.html",
+      "kind": "official-manual",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-23",
+      "method": "mcp__rea capture_browser_scenario / rea-playwright-browser-scenario; read-only rendered DOM",
+      "source_sha256": null,
+      "limitations": "웹 문서의 공개 동작 설명; 실제 CAD 실행·버전별 동일성은 미검증",
+      "observation_history": [
+        {
+          "observed_date": "2026-10-22",
+          "method": "in-app browser DOM / normal public navigation",
+          "access_status": "BODY_OBSERVED"
+        }
+      ],
+      "rea_evidence_id": "ev_8aff27e94befe2344490d6ceb99e2d997861afa3240daa6a9be14ca7239b64d5",
+      "rendered_dom_sha256": "9881eff832d7e5eedfb018a58abb9fa5de6421d4cccb2f536a2a60a75635b88f",
+      "rea_evidence_path": "D:\\PASS_AI\\TEST\\automated\\fire-2025-manual-rea-research-20261023-01a1666b\\evidence-ch01.json",
+      "rea_evidence_file_sha256": "A16A422FDE9D3F1184B82F25256356E21DE9B4F3D79BE60CB210DAD9B5F753ED",
+      "source_hash_note": "source_sha256 remains null; normalized DOM and local evidence receipt SHA are not remote wire-byte SHA",
+      "runtime_verification": "NOT RUN"
+    },
+    {
+      "source_id": "SRC-M02",
+      "title": "매뉴얼 읽기",
+      "url": "https://www.dcs.co.kr/fire2025manual/ch02.html",
+      "kind": "official-manual",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-23",
+      "method": "mcp__rea capture_browser_scenario / rea-playwright-browser-scenario; read-only rendered DOM",
+      "source_sha256": null,
+      "limitations": "웹 문서의 공개 동작 설명; 실제 CAD 실행·버전별 동일성은 미검증",
+      "observation_history": [
+        {
+          "observed_date": "2026-10-22",
+          "method": "in-app browser DOM / normal public navigation",
+          "access_status": "BODY_OBSERVED"
+        }
+      ],
+      "rea_evidence_id": "ev_7c1cd0088048880fcd110fc6b90651c8a20db9932c8d344b792a35513258a401",
+      "rendered_dom_sha256": "01dc2b9bdb180c7b7e2b896a82fbe0458ae28b6c1a80aa3c0002dcfef95d0ee6",
+      "rea_evidence_path": "D:\\PASS_AI\\TEST\\automated\\fire-2025-manual-rea-research-20261023-01a1666b\\evidence-ch02.json",
+      "rea_evidence_file_sha256": "63AE68A03DB2B327BA7F66753ED3B06B19B17157D340A24340C71ED29CE846AE",
+      "source_hash_note": "source_sha256 remains null; normalized DOM and local evidence receipt SHA are not remote wire-byte SHA",
+      "runtime_verification": "NOT RUN"
+    },
+    {
+      "source_id": "SRC-M03",
+      "title": "설치·기동",
+      "url": "https://www.dcs.co.kr/fire2025manual/ch03.html",
+      "kind": "official-manual",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-23",
+      "method": "mcp__rea capture_browser_scenario / rea-playwright-browser-scenario; read-only rendered DOM",
+      "source_sha256": null,
+      "limitations": "웹 문서의 공개 동작 설명; 실제 CAD 실행·버전별 동일성은 미검증",
+      "observation_history": [
+        {
+          "observed_date": "2026-10-22",
+          "method": "in-app browser DOM / normal public navigation",
+          "access_status": "BODY_OBSERVED"
+        }
+      ],
+      "rea_evidence_id": "ev_980964c347df9facbab03c43a448c7bc22125c18944dc2d5899df01740cdf202",
+      "rendered_dom_sha256": "9ff80e9a33737fb3a715f3f60b8ab297ea1ac442c32cd6e721a555a6865617be",
+      "rea_evidence_path": "D:\\PASS_AI\\TEST\\automated\\fire-2025-manual-rea-research-20261023-01a1666b\\evidence-ch03.json",
+      "rea_evidence_file_sha256": "70BC284B1714A463C36CD829C1CE5B27F5728152CB86A91D83544A3364D8931E",
+      "source_hash_note": "source_sha256 remains null; normalized DOM and local evidence receipt SHA are not remote wire-byte SHA",
+      "runtime_verification": "NOT RUN"
+    },
+    {
+      "source_id": "SRC-M04",
+      "title": "FIRE 따라하기",
+      "url": "https://www.dcs.co.kr/fire2025manual/ch04.html",
+      "kind": "official-manual",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-23",
+      "method": "mcp__rea capture_browser_scenario / rea-playwright-browser-scenario; read-only rendered DOM",
+      "source_sha256": null,
+      "limitations": "웹 문서의 공개 동작 설명; 실제 CAD 실행·버전별 동일성은 미검증",
+      "observation_history": [
+        {
+          "observed_date": "2026-10-22",
+          "method": "in-app browser DOM / normal public navigation",
+          "access_status": "BODY_OBSERVED"
+        }
+      ],
+      "rea_evidence_id": "ev_0296140dbd68049372eb43e99870142c4c34be57f2ea5529f8245573ded93b9c",
+      "rendered_dom_sha256": "24a60e69e3afc8c1f230d69d2bbf8e37ac5295f69c70f95d54dd50a2393d1a32",
+      "rea_evidence_path": "D:\\PASS_AI\\TEST\\automated\\fire-2025-manual-rea-research-20261023-01a1666b\\evidence-ch04.json",
+      "rea_evidence_file_sha256": "36D3DC8ADCCDDD4D8E8DFAB9BC734712DC8F72B5F31C920876AE29E5B6C9FAEF",
+      "source_hash_note": "source_sha256 remains null; normalized DOM and local evidence receipt SHA are not remote wire-byte SHA",
+      "runtime_verification": "NOT RUN"
+    },
+    {
+      "source_id": "SRC-M05",
+      "title": "공통부",
+      "url": "https://www.dcs.co.kr/fire2025manual/ch05.html",
+      "kind": "official-manual",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-23",
+      "method": "mcp__rea capture_browser_scenario / rea-playwright-browser-scenario; read-only rendered DOM",
+      "source_sha256": null,
+      "limitations": "웹 문서의 공개 동작 설명; 실제 CAD 실행·버전별 동일성은 미검증",
+      "observation_history": [
+        {
+          "observed_date": "2026-10-22",
+          "method": "in-app browser DOM / normal public navigation",
+          "access_status": "BODY_OBSERVED"
+        }
+      ],
+      "rea_evidence_id": "ev_d8db758f015eb7540ef692bac9826178dae1c7b74737db958c563a75eadac548",
+      "rendered_dom_sha256": "f0964eadcd2c5496cc5379afbf64f36481a3bc66dfc86256a84d6ce3794903da",
+      "rea_evidence_path": "D:\\PASS_AI\\TEST\\automated\\fire-2025-manual-rea-research-20261023-01a1666b\\evidence-ch05.json",
+      "rea_evidence_file_sha256": "AC82AD3B93D3E6A324E7ED7066C47634B03C50BC1993BC6E57079BB859C5CE2B",
+      "source_hash_note": "source_sha256 remains null; normalized DOM and local evidence receipt SHA are not remote wire-byte SHA",
+      "runtime_verification": "NOT RUN"
+    },
+    {
+      "source_id": "SRC-M06",
+      "title": "기계부",
+      "url": "https://www.dcs.co.kr/fire2025manual/ch06.html",
+      "kind": "official-manual",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-23",
+      "method": "mcp__rea capture_browser_scenario / rea-playwright-browser-scenario; read-only rendered DOM",
+      "source_sha256": null,
+      "limitations": "웹 문서의 공개 동작 설명; 실제 CAD 실행·버전별 동일성은 미검증",
+      "observation_history": [
+        {
+          "observed_date": "2026-10-22",
+          "method": "in-app browser DOM / normal public navigation",
+          "access_status": "BODY_OBSERVED"
+        }
+      ],
+      "rea_evidence_id": "ev_858bd5c58fceead8af4f526a27d48d3dbc75989cd9a524a5a375e020c7becef5",
+      "rendered_dom_sha256": "00717c779ecc2a7c09023d0402ef9186d05a7f71da890a9cad434b5135e0809a",
+      "rea_evidence_path": "D:\\PASS_AI\\TEST\\automated\\fire-2025-manual-rea-research-20261023-01a1666b\\evidence-ch06.json",
+      "rea_evidence_file_sha256": "8EE22FFF0024EF59D2CB620177AA7F2823ED243A530F80E16A6AC2BB607A3242",
+      "source_hash_note": "source_sha256 remains null; normalized DOM and local evidence receipt SHA are not remote wire-byte SHA",
+      "runtime_verification": "NOT RUN"
+    },
+    {
+      "source_id": "SRC-M07",
+      "title": "전기부",
+      "url": "https://www.dcs.co.kr/fire2025manual/ch07.html",
+      "kind": "official-manual",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-23",
+      "method": "mcp__rea capture_browser_scenario / rea-playwright-browser-scenario; read-only rendered DOM",
+      "source_sha256": null,
+      "limitations": "웹 문서의 공개 동작 설명; 실제 CAD 실행·버전별 동일성은 미검증",
+      "observation_history": [
+        {
+          "observed_date": "2026-10-22",
+          "method": "in-app browser DOM / normal public navigation",
+          "access_status": "BODY_OBSERVED"
+        }
+      ],
+      "rea_evidence_id": "ev_7a26faaa8735d1ab69fe1de9be1b62f07f9ff9ae94aad17ec502e318f2ce64e5",
+      "rendered_dom_sha256": "abbe875eacc7df27901aa19821b452f263a8199ceb780837ac4614e1f049bb82",
+      "rea_evidence_path": "D:\\PASS_AI\\TEST\\automated\\fire-2025-manual-rea-research-20261023-01a1666b\\evidence-ch07.json",
+      "rea_evidence_file_sha256": "54B410FE77317E94ABB83591A32B9DFC300D052F0A7FC413A566FF6AD54C453D",
+      "source_hash_note": "source_sha256 remains null; normalized DOM and local evidence receipt SHA are not remote wire-byte SHA",
+      "runtime_verification": "NOT RUN"
+    },
+    {
+      "source_id": "SRC-M08",
+      "title": "F툴",
+      "url": "https://www.dcs.co.kr/fire2025manual/ch08.html",
+      "kind": "official-manual",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-23",
+      "method": "mcp__rea capture_browser_scenario / rea-playwright-browser-scenario; read-only rendered DOM",
+      "source_sha256": null,
+      "limitations": "웹 문서의 공개 동작 설명; 실제 CAD 실행·버전별 동일성은 미검증",
+      "observation_history": [
+        {
+          "observed_date": "2026-10-22",
+          "method": "in-app browser DOM / normal public navigation",
+          "access_status": "BODY_OBSERVED"
+        }
+      ],
+      "rea_evidence_id": "ev_c3c5e721a2fb762cfcf1721fbeec728d264836e817bb4fcdb8000b811ba0ffb8",
+      "rendered_dom_sha256": "427201ebe70d60d15e5e1c4ee64e524d3667061a2119a79b0a566eb264d7a848",
+      "rea_evidence_path": "D:\\PASS_AI\\TEST\\automated\\fire-2025-manual-rea-research-20261023-01a1666b\\evidence-ch08.json",
+      "rea_evidence_file_sha256": "4F8B66E05A9BFBFF816C995FB434ACE5CF80AAD987211E98112F0DCDD29CA596",
+      "source_hash_note": "source_sha256 remains null; normalized DOM and local evidence receipt SHA are not remote wire-byte SHA",
+      "runtime_verification": "NOT RUN"
+    },
+    {
+      "source_id": "SRC-PDS",
+      "title": "FIRE 자료실 검색",
+      "url": "https://www.dcs.co.kr/support/pds",
+      "kind": "official-index",
+      "access_status": "INDEX_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "Fire 필터4개 게시물 모두 본문 확인"
+    },
+    {
+      "source_id": "SRC-PDS-288",
+      "title": "AutoCAD용 배포",
+      "url": "https://www.dcs.co.kr/support/pds/detail/288",
+      "kind": "official-web",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": ""
+    },
+    {
+      "source_id": "SRC-PDS-289",
+      "title": "ZWCAD용 배포",
+      "url": "https://www.dcs.co.kr/support/pds/detail/289",
+      "kind": "official-web",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": ""
+    },
+    {
+      "source_id": "SRC-PDS-290",
+      "title": "ZYXCAD용 배포",
+      "url": "https://www.dcs.co.kr/support/pds/detail/290",
+      "kind": "official-web",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": ""
+    },
+    {
+      "source_id": "SRC-PDS-134",
+      "title": "스프링클러 장비 블록 추가",
+      "url": "https://www.dcs.co.kr/support/pds/detail/134",
+      "kind": "official-web",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": ""
+    },
+    {
+      "source_id": "SRC-PDF-134",
+      "title": "스프링클러 장비 블록 교체-블록추가.pdf",
+      "url": "https://www.dcs.co.kr/support/pds/detail/134",
+      "kind": "official-pdf",
+      "access_status": "PDF_READ_AND_RENDERED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": "95E0569BE857E4694A187F3D170550A08C4CDAB59631811DA307D97F8D7F1698",
+      "limitations": "2020년 Fire4_x64 자료. 최신판 구조와 같다고 확정하지 않음",
+      "local_evidence_path": "D:\\PASS_AI\\TEST\\automated\\fire-rea-preparation-20261022-3e6a4468\\fire-block-guide.pdf",
+      "pages": 1
+    },
+    {
+      "source_id": "SRC-BLOG-INDEX",
+      "title": "공식 블로그 전체3페이지 제목 탐색",
+      "url": "https://blog.dcs.co.kr/",
+      "kind": "official-index",
+      "access_status": "INDEX_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "1~3페이지 제목 탐색. 직접 FIRE 관련 본문2개 확인. 개발자 도구 감지 안내가 일부 탐색 중 표시됐으며 보호 동작을 변경하지 않음"
+    },
+    {
+      "source_id": "SRC-BLOG-M",
+      "title": "공식 FIRE 소방 기계",
+      "url": "https://blog.dcs.co.kr/blog/%EC%86%8C%EB%B0%A9%EC%84%A4%EB%B9%84%EC%84%A4%EA%B3%84%EC%9A%A9-cad%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%99%94%EC%9D%B4%EC%96%B4fire%EC%86%8C%EB%B0%A9-%EA%B8%B0%EA%B3%84",
+      "kind": "official-web",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": ""
+    },
+    {
+      "source_id": "SRC-BLOG-E",
+      "title": "공식 FIRE 소방 전기",
+      "url": "https://blog.dcs.co.kr/blog/%EC%86%8C%EB%B0%A9%EC%84%A4%EB%B9%84%EC%84%A4%EA%B3%84%EC%9A%A9-cad%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%99%94%EC%9D%B4%EC%96%B4fire%EC%86%8C%EB%B0%A9-%EC%A0%84%EA%B8%B0",
+      "kind": "official-web",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": ""
+    },
+    {
+      "source_id": "SRC-NOTICE",
+      "title": "공식 공지 Fire 검색",
+      "url": "https://www.dcs.co.kr/support/notice",
+      "kind": "official-index",
+      "access_status": "INDEX_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "검색2페이지 목록 확인. 직접 기능변경/과거버전 공지 본문 확인"
+    },
+    {
+      "source_id": "SRC-NOTICE-240",
+      "title": "Fire2025·2026 헤드 배치/배관 개편",
+      "url": "https://www.dcs.co.kr/support/notice/detail/240",
+      "kind": "official-web",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": ""
+    },
+    {
+      "source_id": "SRC-NOTICE-136",
+      "title": "Fire4.0 과거 출시",
+      "url": "https://www.dcs.co.kr/support/notice/detail/136",
+      "kind": "official-web",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "2017년 호환성 기록; 현재 설치본 버전 증거가 아님"
+    },
+    {
+      "source_id": "SRC-QNA",
+      "title": "FIRE 공개 Q&A 검색",
+      "url": "https://www.dcs.co.kr/support/qna",
+      "kind": "official-index",
+      "access_status": "PARTIAL_INDEX",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "첫 검색 페이지와 기능/실행 관련 상세4건 확인. 2페이지 이동 시 검색어는 남지만 전체 목록으로 돌아가는 현상을 관측해 과거 검색의 전수 열람을 주장하지 않음. 구매/계정/별도 Seismic 제품은 동작 사양으로 채택하지 않음"
+    },
+    {
+      "source_id": "SRC-QNA-1734",
+      "title": "헤드 미리보기 모드",
+      "url": "https://www.dcs.co.kr/support/qna/detail/1734",
+      "kind": "official-support",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "2025 이상 사각 범위와 폴리선 지정의 미리보기 차이를 공식 답변에서 확인"
+    },
+    {
+      "source_id": "SRC-QNA-1709",
+      "title": "인증 실행 시 CAD 종료",
+      "url": "https://www.dcs.co.kr/support/qna/detail/1709",
+      "kind": "official-support",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "호스트에 맞는 최신 설치본·지원 안내. 재현/원인 확인 미실행"
+    },
+    {
+      "source_id": "SRC-QNA-1702",
+      "title": "리본 충돌·기능 미실행",
+      "url": "https://www.dcs.co.kr/support/qna/detail/1702",
+      "kind": "official-support",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "목록 답변완료와 상세 답변준비 표시 차이. 해결됐다고 판단하지 않음"
+    },
+    {
+      "source_id": "SRC-QNA-1660",
+      "title": "라이저 기능 질문",
+      "url": "https://www.dcs.co.kr/support/qna/detail/1660",
+      "kind": "official-support",
+      "access_status": "BODY_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "질문만 있고 실제 답변은 미확인. 기능 존재/부재를 확정할 수 없음"
+    },
+    {
+      "source_id": "SRC-VIDEO-INDEX",
+      "title": "공식 FIRE 영상 게시물 검색",
+      "url": "https://www.dcs.co.kr/home",
+      "kind": "official-index",
+      "access_status": "INDEX_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "홈>제품 동영상>제목 Fire 검색 결과8개 게시물 본문/영상식별자 확인"
+    },
+    {
+      "source_id": "SRC-VIDPOST-167",
+      "title": "AI 스프링클러 헤드 배치",
+      "url": "https://www.dcs.co.kr/support/video/detail/167",
+      "kind": "official-video-post",
+      "access_status": "POST_AND_EMBED_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "동영상 조작 전 과정은 미시청",
+      "published_date": "2026-08-14"
+    },
+    {
+      "source_id": "SRC-YT-PAwhrobiOMg",
+      "title": "AI 스프링클러 헤드 배치",
+      "url": "https://www.youtube.com/watch?v=PAwhrobiOMg",
+      "kind": "official-linked-video",
+      "access_status": "TRANSCRIPT_UNAVAILABLE",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "브라우저 exportYouTubeTranscript 결과: No transcript is available for this YouTube video. 영상 프레임·실행 성공을 확인한 것으로 계산하지 않음"
+    },
+    {
+      "source_id": "SRC-VIDPOST-166",
+      "title": "말 한마디로 헤드 배치",
+      "url": "https://www.dcs.co.kr/support/video/detail/166",
+      "kind": "official-video-post",
+      "access_status": "POST_AND_EMBED_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "동영상 조작 전 과정은 미시청",
+      "published_date": "2026-08-14"
+    },
+    {
+      "source_id": "SRC-YT-Q2NIvCZJHCs",
+      "title": "말 한마디로 헤드 배치",
+      "url": "https://www.youtube.com/watch?v=Q2NIvCZJHCs",
+      "kind": "official-linked-video",
+      "access_status": "TRANSCRIPT_UNAVAILABLE",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "브라우저 exportYouTubeTranscript 결과: No transcript is available for this YouTube video. 영상 프레임·실행 성공을 확인한 것으로 계산하지 않음"
+    },
+    {
+      "source_id": "SRC-VIDPOST-161",
+      "title": "2025이상 소방설계 완성",
+      "url": "https://www.dcs.co.kr/support/video/detail/161",
+      "kind": "official-video-post",
+      "access_status": "POST_AND_EMBED_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "동영상 조작 전 과정은 미시청",
+      "published_date": "2026-04-15"
+    },
+    {
+      "source_id": "SRC-YT-4CN4dYvMsFE",
+      "title": "2025이상 소방설계 완성",
+      "url": "https://www.youtube.com/watch?v=4CN4dYvMsFE",
+      "kind": "official-linked-video",
+      "access_status": "TRANSCRIPT_UNAVAILABLE",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "브라우저 exportYouTubeTranscript 결과: No transcript is available for this YouTube video. 영상 프레임·실행 성공을 확인한 것으로 계산하지 않음"
+    },
+    {
+      "source_id": "SRC-VIDPOST-159",
+      "title": "FIRE 따라하기",
+      "url": "https://www.dcs.co.kr/support/video/detail/159",
+      "kind": "official-video-post",
+      "access_status": "POST_AND_EMBED_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "동영상 조작 전 과정은 미시청",
+      "published_date": "2025-07-18"
+    },
+    {
+      "source_id": "SRC-YT-rQzaBItmHSg",
+      "title": "FIRE 따라하기",
+      "url": "https://www.youtube.com/watch?v=rQzaBItmHSg",
+      "kind": "official-linked-video",
+      "access_status": "TRANSCRIPT_UNAVAILABLE",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "브라우저 exportYouTubeTranscript 결과: No transcript is available for this YouTube video. 영상 프레임·실행 성공을 확인한 것으로 계산하지 않음"
+    },
+    {
+      "source_id": "SRC-VIDPOST-125",
+      "title": "제연 덕트",
+      "url": "https://www.dcs.co.kr/support/video/detail/125",
+      "kind": "official-video-post",
+      "access_status": "POST_AND_EMBED_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "동영상 조작 전 과정은 미시청",
+      "published_date": "2018-11-05"
+    },
+    {
+      "source_id": "SRC-YT-ZvCM9QoqPVA",
+      "title": "제연 덕트",
+      "url": "https://www.youtube.com/watch?v=ZvCM9QoqPVA",
+      "kind": "official-linked-video",
+      "access_status": "TRANSCRIPT_UNAVAILABLE",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "브라우저 exportYouTubeTranscript 결과: No transcript is available for this YouTube video. 영상 프레임·실행 성공을 확인한 것으로 계산하지 않음"
+    },
+    {
+      "source_id": "SRC-VIDPOST-124",
+      "title": "유도등 배선",
+      "url": "https://www.dcs.co.kr/support/video/detail/124",
+      "kind": "official-video-post",
+      "access_status": "POST_AND_EMBED_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "동영상 조작 전 과정은 미시청",
+      "published_date": "2018-11-05"
+    },
+    {
+      "source_id": "SRC-YT-wALbYBiItBM",
+      "title": "유도등 배선",
+      "url": "https://www.youtube.com/watch?v=wALbYBiItBM",
+      "kind": "official-linked-video",
+      "access_status": "TRANSCRIPT_UNAVAILABLE",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "브라우저 exportYouTubeTranscript 결과: No transcript is available for this YouTube video. 영상 프레임·실행 성공을 확인한 것으로 계산하지 않음"
+    },
+    {
+      "source_id": "SRC-VIDPOST-123",
+      "title": "감지기 배치·배선",
+      "url": "https://www.dcs.co.kr/support/video/detail/123",
+      "kind": "official-video-post",
+      "access_status": "POST_AND_EMBED_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "동영상 조작 전 과정은 미시청",
+      "published_date": "2018-11-05"
+    },
+    {
+      "source_id": "SRC-YT-y27hCyBZk1A",
+      "title": "감지기 배치·배선",
+      "url": "https://www.youtube.com/watch?v=y27hCyBZk1A",
+      "kind": "official-linked-video",
+      "access_status": "TRANSCRIPT_UNAVAILABLE",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "브라우저 exportYouTubeTranscript 결과: No transcript is available for this YouTube video. 영상 프레임·실행 성공을 확인한 것으로 계산하지 않음"
+    },
+    {
+      "source_id": "SRC-VIDPOST-122",
+      "title": "기계부 작도",
+      "url": "https://www.dcs.co.kr/support/video/detail/122",
+      "kind": "official-video-post",
+      "access_status": "POST_AND_EMBED_OBSERVED",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "동영상 조작 전 과정은 미시청",
+      "published_date": "2018-11-05"
+    },
+    {
+      "source_id": "SRC-YT-9xNXnPvfgQ0",
+      "title": "기계부 작도",
+      "url": "https://www.youtube.com/watch?v=9xNXnPvfgQ0",
+      "kind": "official-linked-video",
+      "access_status": "TRANSCRIPT_UNAVAILABLE",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "브라우저 exportYouTubeTranscript 결과: No transcript is available for this YouTube video. 영상 프레임·실행 성공을 확인한 것으로 계산하지 않음"
+    },
+    {
+      "source_id": "SRC-YT-_42oNs9R8H0",
+      "title": "영역 스케일·저장·삭제",
+      "url": "https://www.youtube.com/watch?v=_42oNs9R8H0",
+      "kind": "official-linked-video",
+      "access_status": "TRANSCRIPT_UNAVAILABLE",
+      "observed_date": "2026-10-22",
+      "method": "in-app browser DOM / normal public navigation",
+      "source_sha256": null,
+      "limitations": "공식 제품 페이지 연결. 자막 내보내기 불가; 실제 영상 동작 미확인"
+    }
+  ],
+  "distribution_links": [
+    {
+      "host": "AutoCAD",
+      "version": "2027",
+      "group": "Fire2027",
+      "source_id": "SRC-PDS-288",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/Fire2027",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "AutoCAD",
+      "version": "2026",
+      "group": "Fire2026",
+      "source_id": "SRC-PDS-288",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/Fire2026",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "AutoCAD",
+      "version": "2025",
+      "group": "Fire2025",
+      "source_id": "SRC-PDS-288",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/Fire2025",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "AutoCAD",
+      "version": "2024",
+      "group": "Fire2024",
+      "source_id": "SRC-PDS-288",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/Fire2024",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "AutoCAD",
+      "version": "2023",
+      "group": "Fire2023",
+      "source_id": "SRC-PDS-288",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/Fire2023",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "AutoCAD",
+      "version": "2022",
+      "group": "Fire2022",
+      "source_id": "SRC-PDS-288",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/Fire2022",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "AutoCAD",
+      "version": "2021",
+      "group": "Fire2021",
+      "source_id": "SRC-PDS-288",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/Fire2021",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "AutoCAD",
+      "version": "2020",
+      "group": "Fire2020",
+      "source_id": "SRC-PDS-288",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/Fire2020",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "AutoCAD",
+      "version": "~2019 / Fire4",
+      "group": "Fire4",
+      "source_id": "SRC-PDS-288",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/Fire4",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "ZWCAD",
+      "version": "2026",
+      "group": "ZWCAD2026",
+      "source_id": "SRC-PDS-289",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/ZWCAD2026",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "ZWCAD",
+      "version": "2025",
+      "group": "ZWCAD2025",
+      "source_id": "SRC-PDS-289",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/ZWCAD2025",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "ZWCAD",
+      "version": "2024",
+      "group": "ZWCAD2024",
+      "source_id": "SRC-PDS-289",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/ZWCAD2024",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "ZWCAD",
+      "version": "2023",
+      "group": "ZWCAD2023",
+      "source_id": "SRC-PDS-289",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/ZWCAD2023",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "ZWCAD",
+      "version": "2022",
+      "group": "ZWCAD2022",
+      "source_id": "SRC-PDS-289",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/ZWCAD2022",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "ZWCAD",
+      "version": "2021",
+      "group": "ZWCAD2021",
+      "source_id": "SRC-PDS-289",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/ZWCAD2021",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "ZWCAD",
+      "version": "2020",
+      "group": "ZWCAD2020",
+      "source_id": "SRC-PDS-289",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/ZWCAD2020",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "ZYXCAD",
+      "version": "2026",
+      "group": "ZYXCAD2026",
+      "source_id": "SRC-PDS-290",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/ZYXCAD2026",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "ZYXCAD",
+      "version": "2025",
+      "group": "ZYXCAD2025",
+      "source_id": "SRC-PDS-290",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/ZYXCAD2025",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "ZYXCAD",
+      "version": "2024",
+      "group": "ZYXCAD2024",
+      "source_id": "SRC-PDS-290",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/ZYXCAD2024",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    },
+    {
+      "host": "ZYXCAD",
+      "version": "2022",
+      "group": "ZYXCAD2022",
+      "source_id": "SRC-PDS-290",
+      "url": "https://nexus.dcs.co.kr/service/rest/v1/search/assets/download?sort=name&direction=desc&repository=dcs-repos&group=/Fire/ZYXCAD2022",
+      "status": "LINK_ONLY_NOT_DOWNLOADED",
+      "binary_sha256": null,
+      "limitation": "name-sort latest endpoint is mutable; link label is not verified runtime compatibility"
+    }
+  ],
+  "unknown_policy": "본문/색인/영상메타데이터/미열람을 구분; 미공개·검색 누락·모든 프레임의 열람 완료를 주장하지 않음",
+  "observation_date_scope": "SRC-PRODUCT and SRC-M00..08 re-observed via REA; other35 records retain their original dates and methods"
+}
